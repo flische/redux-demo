@@ -8,7 +8,7 @@ class SetTheme extends Component{
         // const theme = localStorage.themeName;
 
         this.props.setTheme(theme);
-        
+
     }
     render(){
         console.log('Theme:', this.props.theme);

@@ -21,7 +21,7 @@ export const setTheme = (themeName = defaultTheme) => {
     return {
         type: types.SET_THEME,  // 'set_theme'
         themeName: themeName,   // 'light'
-        theme: theme        // theme object -> light: {text: 'black-text',nav: 'deep-purple lighten-5',accent: 'deep-purple lighten-4',main:'deep-purple lighten-5'}
+        theme: theme        // theme object ---> light: {text: 'black-text',nav: 'deep-purple lighten-5',accent:                                                                'deep-purple lighten-4',main:'deep-purple lighten-5'}
     }
 };
 
